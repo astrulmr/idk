@@ -1,0 +1,18 @@
+{
+  "name": "pro-spar-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "testElo": "node functions/utils/eloCalculator"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.7.7",
+    "mongoose-auto-increment": "^5.0.1",
+    "shuffle-array": "^1.0.1"
+  }
+}
